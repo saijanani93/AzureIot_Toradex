@@ -1,8 +1,9 @@
 # Azure IOT 
 This repo contains working examples for Azure IOT communication.
-Prerequesite: Azure Connection String
-Hardware Used: Toradex Colibri iMX8X, Toradex Colibri Evaluation Board
-Enable IOT extension in Azure CLI: `az extension add --name azure-cli-iot-ext `
+
+* Prerequesite: Azure Connection String
+* Hardware Used: Toradex Colibri iMX8X, Toradex Colibri Evaluation Board
+* Enable IOT extension in Azure CLI: `az extension add --name azure-cli-iot-ext `
 
 ## 1. Receive Act React
 Issue the following command from Azure CLI to send message to the Colibri. Upon right message, LEDs in Colibri Eval. Board starts Blinking:
