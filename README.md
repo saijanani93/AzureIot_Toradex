@@ -6,6 +6,7 @@ Enable IOT extension in Azure CLI: `az extension add --name azure-cli-iot-ext `
 
 ## 1. Receive Act React
 Issue the following command from Azure CLI to send message to the Colibri. Upon right message, LEDs in Colibri Eval. Board starts Blinking:
+
 Right message: `az iot device c2d-message send --device-id colibri-imx8x --hub-name Toradex-test-hub --data "Start"`
 Wrong message: `az iot device c2d-message send --device-id colibri-imx8x --hub-name Toradex-test-hub --data "Hey There!"`
 
